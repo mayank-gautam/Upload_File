@@ -23,7 +23,7 @@ public class UploadFile {
     }
 
 
-    private static void setProgressDialogDetail(ProgressDialog progressDialog) {
+    public static void setProgressDialogDetail(ProgressDialog progressDialog) {
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Uploading File...");
         progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
